@@ -23,15 +23,15 @@ WA.onInit().then(() => {
 
 
     WA.room.onEnterLayer('nftZone').subscribe(() => {
-        WA.room.hideLayer("roofNft0");
-        WA.room.hideLayer("roofNft1");
-        WA.room.hideLayer("roofNft2");
+        WA.room.hideLayer("roofNFT0");
+        WA.room.hideLayer("roofNFT1");
+        WA.room.hideLayer("roofNFT2");
     })      
 
     WA.room.onLeaveLayer('nftZone').subscribe(() => {
-        WA.room.showLayer("roofNft0");
-        WA.room.showLayer("roofNft1");
-        WA.room.showLayer("roofNft2");
+        WA.room.showLayer("roofNFT0");
+        WA.room.showLayer("roofNFT1");
+        WA.room.showLayer("roofNFT2");
     })
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
