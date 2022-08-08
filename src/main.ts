@@ -10,13 +10,13 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('officeZone').subscribe(() => {
-        WA.room.showLayer("roofOffice0");
-        WA.room.showLayer("roofOffice1");
-        WA.room.showLayer("roofOffice2");
+
     })      
 
     WA.room.onLeaveLayer('officeZone').subscribe(() => {
-
+        WA.room.showLayer("roofOffice0");
+        WA.room.showLayer("roofOffice1");
+        WA.room.showLayer("roofOffice2");
     })
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
