@@ -10,7 +10,9 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     WA.room.onEnterLayer('officeZone').subscribe(() => {
-
+        WA.room.hideLayer("roofOffice0");
+        WA.room.hideLayer("roofOffice1");
+        WA.room.hideLayer("roofOffice2");
     })      
 
     WA.room.onLeaveLayer('officeZone').subscribe(() => {
