@@ -15,7 +15,7 @@ WA.onInit().then(() => {
         WA.room.showLayer("roofOffice2");
     })      
 
-    WA.room.onLeaveLayer('topleftZone').subscribe(() => {
+    WA.room.onLeaveLayer('officeZone').subscribe(() => {
 
     })
 
