@@ -510,12 +510,12 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"All rights reserved to DRP"
+         "value":"All rights reserved to Metadventure"
         }, 
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"DRPVille official map"
+         "value":"Metadventure official map"
         }, 
         {
          "name":"mapImage",
@@ -530,7 +530,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"DRPVille"
+         "value":"Metadventure"
         }, 
         {
          "name":"script",
@@ -549,12 +549,6 @@
          "imagewidth":192,
          "margin":0,
          "name":"Set_Special_Zones",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicense: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
          "spacing":0,
          "tilecount":12,
          "tileheight":32,
